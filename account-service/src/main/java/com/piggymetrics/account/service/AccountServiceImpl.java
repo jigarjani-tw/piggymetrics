@@ -89,4 +89,12 @@ public class AccountServiceImpl implements AccountService {
 
 		statisticsClient.updateStatistics(name, account);
 	}
+
+	/**
+	 * Write method for delete user.
+	 */
+	public void deleteUser(){
+		//implement delete user logic
+	}
+
 }
